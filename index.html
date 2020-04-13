@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1 style="margin-top: 0;padding-top: 0;">Tic-Tac-Toe</h1>
+
+        <div style="margin-bottom: 2rem;">
+            <select id="p1">
+                <option value="human">Human</option>
+                <option value="ai">AI</option>
+            </select>
+            <b>VS</b>
+            <select id="p2">
+                <option value="human">Human</option>
+                <option value="ai">AI</option>
+            </select>
+            <div style="margin-top: 1rem;">
+                <button id="btn">Start Game</button>
+            </div>
+        </div>
+        
+        <table id="tictac">
+            <tr><td id="cell0"></td><td id="cell1"></td><td id="cell2"></td></tr>
+            <tr><td id="cell3"></td><td id="cell4"></td><td id="cell5"></td></tr>
+            <tr><td id="cell6"></td><td id="cell7"></td><td id="cell8"></td></tr>
+        </table>
+        <div id="result"></div>
+    </div>
+
+    <!-- script -->
+    <script src="jquery.min.js"></script>
+    <script src="board.js"></script>
+    <script src="ai.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

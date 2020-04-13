@@ -1,0 +1,46 @@
+body > * {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+}
+
+
+table#tictac {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tictac td {
+    width: 1.3em;
+    height: 1.3em;
+    text-align: center;
+    vertical-align: middle;
+    font: bold 36px sans-serif;
+}
+
+table#tictac td#cell0, td#cell1, td#cell2, td#cell3, td#cell4, td#cell5 {
+    border-bottom: 3px solid black;
+}
+
+table#tictac td#cell0, td#cell1, td#cell3, td#cell4, td#cell6, td#cell7 {
+    border-right: 3px solid black;
+}
+
+div#result {
+    margin: 0.5em;
+    font: 24px sans-serif;
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
